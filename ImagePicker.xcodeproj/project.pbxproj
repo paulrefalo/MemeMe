@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		48AE90F81D2596FB0040D09C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE90F71D2596FB0040D09C /* AppDelegate.swift */; };
-		48AE90FA1D2596FB0040D09C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE90F91D2596FB0040D09C /* ViewController.swift */; };
+		48AE90FA1D2596FB0040D09C /* EditMemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE90F91D2596FB0040D09C /* EditMemeViewController.swift */; };
 		48AE90FD1D2596FB0040D09C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AE90FB1D2596FB0040D09C /* Main.storyboard */; };
 		48AE90FF1D2596FB0040D09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AE90FE1D2596FB0040D09C /* Assets.xcassets */; };
 		48AE91021D2596FB0040D09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AE91001D2596FB0040D09C /* LaunchScreen.storyboard */; };
 		48AE910D1D2596FB0040D09C /* ImagePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE910C1D2596FB0040D09C /* ImagePickerTests.swift */; };
 		48AE91181D2596FB0040D09C /* ImagePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE91171D2596FB0040D09C /* ImagePickerUITests.swift */; };
-		48AE91261D26D9360040D09C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE91251D26D9360040D09C /* ImageViewController.swift */; };
+		48B2F3711D36E09500851A6C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B2F3701D36E09500851A6C /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		48AE90F41D2596FB0040D09C /* ImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AE90F71D2596FB0040D09C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48AE90F91D2596FB0040D09C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48AE90F91D2596FB0040D09C /* EditMemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemeViewController.swift; sourceTree = "<group>"; };
 		48AE90FC1D2596FB0040D09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48AE90FE1D2596FB0040D09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48AE91011D2596FB0040D09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		48AE91131D2596FB0040D09C /* ImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AE91171D2596FB0040D09C /* ImagePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerUITests.swift; sourceTree = "<group>"; };
 		48AE91191D2596FB0040D09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48AE91251D26D9360040D09C /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		48B2F3701D36E09500851A6C /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				48AE90F71D2596FB0040D09C /* AppDelegate.swift */,
-				48AE90F91D2596FB0040D09C /* ViewController.swift */,
+				48AE90F91D2596FB0040D09C /* EditMemeViewController.swift */,
 				48AE90FB1D2596FB0040D09C /* Main.storyboard */,
-				48AE91251D26D9360040D09C /* ImageViewController.swift */,
+				48B2F3701D36E09500851A6C /* ImageViewController.swift */,
 				48AE90FE1D2596FB0040D09C /* Assets.xcassets */,
 				48AE91001D2596FB0040D09C /* LaunchScreen.storyboard */,
 				48AE91031D2596FB0040D09C /* Info.plist */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48AE90FA1D2596FB0040D09C /* ViewController.swift in Sources */,
-				48AE91261D26D9360040D09C /* ImageViewController.swift in Sources */,
+				48AE90FA1D2596FB0040D09C /* EditMemeViewController.swift in Sources */,
+				48B2F3711D36E09500851A6C /* ImageViewController.swift in Sources */,
 				48AE90F81D2596FB0040D09C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
